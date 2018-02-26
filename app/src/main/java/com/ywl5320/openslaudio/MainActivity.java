@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (!created) {
             createEngine();
-            createBufferQueueAudioPlayer();
+            //createBufferQueueAudioPlayer();
             created = createAssetAudioPlayer(assetManager, "mydream.m4a");
         }
         if (created) {
